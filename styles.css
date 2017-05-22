@@ -1,9 +1,198 @@
 * {
     margin: 0;
     padding: 0;
-    outline: 1px dotted red
 }
 
 body {
-    background-color: rgb(14, 14, 14)
+    background-color: #1A1A1A;
+    color: white;
+}
+
+.wrapper {
+    max-width: 977px;
+    margin: auto;
+}
+
+.selected {
+    color: rgb(238, 238, 238);
+}
+
+header {
+    background-color: rgb(26, 26, 26);
+}
+
+.callus {
+    display: inline-block;
+    margin-top: 10px;
+    text-align: right;
+    position: relative;
+    width: 735px;
+    font-size: small;
+    font-family: Arial, sans-serif;
+    vertical-align: top;
+
+}
+
+nav {
+    background: linear-gradient(to bottom, rgb(80, 80, 80), rgb(42, 42, 42));
+}
+
+nav ul li {
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+    padding: 6px;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    border-right: 1px solid #505050;
+}
+
+.arrows {
+    font-size: 7.5px;
+    margin-bottom: 5px;
+}
+
+
+.contentsection {
+    display: inline-block;
+    width: 225px;
+    height: 150px;
+    margin-top: 10px;
+}
+
+.orange-text {
+    display: inline-block;
+    color: orange;
+    text-align: center;
+    font-size: 16px;
+    margin-left: 10px;
+    vertical-align: top;
+    margin-top: 5px;
+}
+
+#content {
+    background-color: #1A1A1A;
+    width: 1000px;
+    height: 165px;
+}
+
+.contentsection {
+    width: 220px;
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 10px;
+    padding-left: 8px;
+    vertical-align: top;
+}
+
+.contentsection p {
+    font-size: 12px;
+    font-family: sans-serif;
+    margin-left: 60px;
+    margin-top: -10px;
+
+}
+
+#buysection {
+    height: 100px;
+    background: repeating-linear-gradient(
+        135deg,
+        #202020,
+        #000000 1px,
+        #202020 1px,
+        #000000 1px
+        );
+}
+
+#buysection-left {
+    display: inline-block;
+    width: 670px;
+    font-family: Arial, sans-serif;
+    margin-left: 15px;
+    margin-top: 20px;
+    vertical-align: middle;
+}
+
+#buysection-right {
+    display: inline-block;
+    width: 100px;
+    margin-left: 130px;
+    border-radius: 5px;
+    padding-left: 20px;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    height: 25px;
+    padding-top: 5px;
+    background: linear-gradient(to bottom, #f0995f, #ed803a);
+    vertical-align: middle;
+    margin-top: 15px;
+}
+
+#buysection p {
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+#portfolio h4 {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+#portfolio a {
+    display: inline-block;
+    text-align: right;
+    width: 100px;
+    margin-left: 780px;
+    font-style: italic;
+    font-size: 12px;
+    text-decoration: none;
+
+}
+
+#portfolio {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+    background-color: #1A1A1A;
+}
+
+a {
+    color: #f0995f;
+}
+
+#portfolio-components {
+    display: inline-block;
+    width: 225px;
+    height: 300px;
+    vertical-align: top;
+    margin-top: 20px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.portfolio-item img {
+    border: 5px solid #363636;
+}
+
+.portfolio-orange-text {
+    color: orange;
+    font-size: 14px;
+    margin: 10px 0px;
+}
+
+.portfolio-orange-paragraph {
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+footer {
+    text-align: right;
+}
+
+.footer-text {
+    color: rgba(120, 120, 120, 1);
+    margin-right: 20px;
+    font-size: 10px;
+    text-decoration: none;
 }
